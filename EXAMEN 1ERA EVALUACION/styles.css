@@ -1,0 +1,77 @@
+.Pagina{
+    border-style: solid;
+    width: 1200px;
+    height: 1600px;
+    margin: 0 auto;
+}
+
+#Logo{
+    border-style: none;
+    margin-left:  250px;
+    margin-top: 50px;
+    display: inline-block;
+    
+}
+
+#Logo:hover{
+    background-color: beige;
+}
+header{
+    
+    
+    width: 1200px;
+    
+}
+#Video{
+    margin-left: 175px;
+    float: left;
+}
+#Caja1{
+    float: right;
+    border-style: none;
+    width: 400px;
+    height: 495px;
+    margin-right: 175px;
+    background-color: beige;
+}
+p{
+   font-family: Arial, Helvetica, sans-serif; 
+   margin-top: 200px;
+   margin-left: 33px;
+   font-size: 25px;
+   
+}
+#Caja2{
+    width: 850px;
+    height: 100px;
+    float: left;
+    border-style: solid;
+    margin: 175px;
+    margin-top: 20px
+}
+
+article{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#Foto1{
+    margin-left: 175px;
+}
+#Foto2{
+    margin-left: 50px;
+}
+span{
+    color: red;
+}
+
+#FotoFinal{
+    width: 854px;
+    height: 75px;
+}
+   
+footer{
+    margin-left: 175px;
+}
