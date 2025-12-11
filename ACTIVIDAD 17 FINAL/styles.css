@@ -1,0 +1,40 @@
+.Pantalla1{
+    border-style: solid;
+    width: 1200px;
+    height: 1000px;
+    margin: 0% auto;
+}
+
+header{
+    border: 1px black solid;
+    width: 1200px;
+    height: 100px;   
+    background-color: orangered;
+    margin: 0% auto;
+}
+
+
+#Casa1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#Toribot1{
+  margin-left: 450px; 
+   
+  
+}
+
+#Biografia1{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+#Galeria1{
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}

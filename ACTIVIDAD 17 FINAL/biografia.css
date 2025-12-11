@@ -1,0 +1,63 @@
+.Pantalla2{
+    border-style: solid;
+    width: 1200px;
+    height: 1000px;
+    margin: 0% auto;
+    background-color: yellow;
+}
+
+header{
+    border: 1px black solid;
+    width: 1200px;
+    height: 100px;   
+    background-color: orangered;
+    margin: 0% auto;
+}
+#Casa1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#Toribot1{
+  margin-left: 450px; 
+   
+  
+}
+
+#Biografia1{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+#Galeria1{
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+ 
+
+article{
+    border-style: solid;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: orange;
+}
+
+#Akira2{
+     border-style: solid;
+     margin-top: ;
+}
+
+#AkiraBio{
+    
+    max-width: 700px; /* ajusta el ancho del texto */
+    background-color: orange;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: justify; 
+}
+    
