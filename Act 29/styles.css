@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1, h5{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+h1{
+    font-family: "ltr-federal", sans-serif;
+
+     font-style: normal;
+}
+h5{
+    font-family: "titular", sans-serif;
+
+font-style: normal;
+}
+
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+main div{
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+    font-size: 20px;
+}
+.Matrimonio1{
+    border-style: solid;
+    background-color: yellow;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.Matrimonio1:hover{
+    background-image: url(img/gilda2.webp);
+    background-size: cover;
+}
+.Sevillana{
+    background-color: yellow;
+    border-style: solid;
+    border-color: red;
+    border-width: 8px;
+}
+.Rita{
+    display: flex;
+    align-items: center;
+}
+
+
+section{
+    margin: auto;
+    background-color: white;
+    width: 90%;
+    height: 90px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (orientation: landscape)
+
+{ main { flex-direction: row;}
+
+.Rita {display: none;}
+}
+
+ @media (orientation: portrait)
+ {main {flex-direction: column;}
+.Sevillana, .Matrimonio1 {
+    background-color: olive;
+    ;
+}
+.Rita{
+   align-items: center;
+   justify-content: center;
+}
+
+section {display: none;}
+
+}
+
