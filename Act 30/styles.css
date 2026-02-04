@@ -1,0 +1,82 @@
+*{    
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: nowrap;
+    display: flexbox
+    
+    
+}
+
+h1{
+   font-family: LimeLight;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    padding: 1vw;
+}
+ul{
+    background-color: orangered;
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    margin: auto;    
+
+}
+.España{
+    width: 80vw;
+    background-color: blueviolet;
+    margin-top: 15px;
+    padding: 20px;
+}
+.Foto1{
+    width: 70vw;
+}
+img{
+    width: 30vw;
+    padding: 1vw;
+    
+}
+.Graficos{
+    width: 80vw;
+    background-color: orange;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+}
+p{
+    font-size: 15px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+li:hover{
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #Fuera {display: none;}
+    ul{flex-direction: column;}
+    .Graficos{flex-direction: column;
+    background-color: blueviolet;}
+    .España{background-color: orange;}
+
+    
+    
+}
+@media only screen and (min-width: 600px){
+    #VerMas{display: none;}
+    .España:hover{
+        transform: scale(1.2,1.2);
+    }
+}
