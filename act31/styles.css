@@ -1,0 +1,83 @@
+*{
+margin: auto;
+padding: auto;    
+}
+body{
+    background-image: url(img/Gemini_Generated_Image_3qn5zz3qn5zz3qn5.png);
+    background-size: cover;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: darkkhaki;
+    display: flex;
+}
+#LogoPerro{
+    margin-left: 48vw;
+}
+
+
+h1{
+    font-family: DynaPuff;
+    color: aliceblue;
+    margin: auto;
+    font-size: 45px;
+    background-color: brown;
+    width: 28vw;
+    text-align: center;
+    
+}
+
+#LogoPerro2{
+    width: 400px;
+    margin-left: 35vw;
+    margin-bottom: 1px;
+}
+h3{
+    font-family: Delius;
+    background-color: burlywood;
+    font-size: 15px;
+    width: 80vw;
+    text-align: center;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    margin-top: 20px;
+
+}
+li{
+    list-style: none;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: white;
+    display: flex;
+    
+    
+    
+    
+}
+li:hover{
+    transform: scale(1.5,1.5);
+}
+p{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    #LogoPerro2{width: 30vw;}
+    ul{flex-direction: column;}
+    h1{ 
+     
+     font-size: 5vw;
+}
+
+
+    
+    
+}
+@media only screen and (min-width: 601px){
+    .Disfruta{display: none;}
+    .España:hover{
+        transform: scale(1.2,1.2);
+    }
+}

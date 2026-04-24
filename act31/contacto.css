@@ -1,0 +1,126 @@
+*{
+margin: auto;
+padding: auto;    
+
+}
+body{
+    background-image: url(img/Gemini_Generated_Image_3qn5zz3qn5zz3qn5.png);
+    background-size: cover;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: darkkhaki;
+    display: flex;
+}
+#LogoPerro{
+    margin-left: 48vw;
+}
+iframe{
+    width: 40vw;
+    display: flex;
+    border-style: ridge;
+    border-width: 10px;
+    margin-top: 25px;
+}
+p{
+    display: flex;
+    background-color: chocolate;
+    font-family:  Delius;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 37vw;
+    text-align: center;
+    display: inline;
+    padding: 5px;
+}
+.Ubi{
+    margin-top: 15px;
+}
+
+
+ul{
+   margin-right: 52vw;
+   margin-top: 1vw;
+   margin: auto;
+}
+li{
+       font-family: Delius;
+    background-color: burlywood;
+    text-align: center;
+    list-style: none;
+    width: 20vw;
+    border-color: black;
+    border-style: ridge; 
+    margin-top: 2vw;
+}
+h6{
+    font-family: Delius;
+    background-color: burlywood;
+    text-align: center;
+    list-style: none;
+    width: 20vw;
+    border-color: black;
+    border-style: ridge;
+    padding: 1vw;
+    margin-top: 20px;
+    
+}
+img{
+    margin-top: 5px;
+    padding: 2px;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 90vw;
+}
+
+main div{
+    width: 40vw;
+    height: 15vw;
+    margin-left: 5vw;
+    margin-bottom: 6vw;
+}
+.RRSS{
+        font-family: DynaPuff;
+    color: aliceblue;
+    background-color: brown;
+    margin-top: 3vw;
+    padding: 1vw;
+    margin-left: 13vw;
+    width: 9vw;
+}
+.Horario{
+        font-family: DynaPuff;
+    color: aliceblue;
+    background-color: brown;
+    margin-top: 3vw;
+    padding: 1vw;
+    margin-left: 15vw;
+    width: 9vw;
+}
+.Redes{
+    margin-top: 50px;
+}
+h2{
+    display: inline;
+}
+.RRSS{
+    margin-right: 6vw;
+}
+@media only screen and (max-width: 600px) {
+    #LogoPerro2{width: 30vw;}
+    ul{flex-direction: column;}
+    h2{ 
+     display: flex;
+     font-size: 3.5vw; }
+     p{font-size: 3vw;}
+    
+}
+@media only screen and (min-width: 601px){
+    h3{display: none;}
+}
