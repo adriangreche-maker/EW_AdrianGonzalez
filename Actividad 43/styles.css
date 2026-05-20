@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+   display: grid;
+   grid-template-areas: 
+   "header nav nav nav" 
+   "main main main main"
+   "Texto Texto Texto Texto"
+   "section section section Explicacion"
+   "footer footer footer footer"
+   ;
+   grid-template-columns: 25% 25% 25% 25%;
+   margin: 2vw;
+}
+header{
+   grid-area: header;
+   display: flex;
+   font-family: "nouvelle-vague", sans-serif;
+}
+header img{
+   width: 100%;
+}
+nav{
+   grid-area: nav;
+   display: flex;
+}
+.Uno{
+   margin-left: 5vw;
+   padding: 3vw;
+}
+main{
+   justify-content: space-between;
+   display: flex;
+   grid-area: main;
+}
+main div img{
+width: 100%;
+}
+main p{
+   text-align: center;
+   padding: 2vw;
+   font-family: "nouvelle-vague", sans-serif;
+}
+.Texto{
+   grid-area: Texto;
+   background-color: #65880f;
+   text-align: center;
+   width: 96vw;
+   padding: 1vw;
+   font-family: "nouvelle-vague", sans-serif;
+   font-size: 2vw;
+}.Texto p{
+   color: darkmagenta;
+}
+section{
+   grid-area: section;
+   display: flex;
+}
+.Explicacion{
+   grid-area: Explicacion;
+}
+.Explicacion p{
+   font-family: "nouvelle-vague", sans-serif;
+   padding: 2vw;
+   text-align: center;
+   margin-left: 3vw;
+   color: #65880f;
+}
+footer{
+   grid-area: footer;
+   background-color: #65880f;
+   display: flex;
+   padding: 4vw;
+   width: 1425px;
+}
+footer p{
+   color: aliceblue;
+   border-color: aliceblue;
+   border-style: solid;
+   padding: 3vw;
+   margin-left: 10vw;
+   justify-content: space-between;
+}
+@media only screen and (max-width: 1000px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+        section{
+        flex-direction: column;
+        
+    }
+        .Fotos{
+        flex-direction: column;
+        
+    }
+    .Texto{
+      display: none;
+    }
+    footer{
+      flex-direction: column;
+      margin-top: 2vw;
+    }
+    footer div{
+      margin: 2vw;
+    }
+
+}

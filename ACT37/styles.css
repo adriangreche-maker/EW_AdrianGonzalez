@@ -1,0 +1,93 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.titulo{
+      font-family: forager, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      margin: 20px;
+      font-size: 1.2em;
+}
+.titulo:hover{
+      color: orange;
+}
+main{
+      width: 80%;
+      border: 2px solid orange;
+      margin: auto;
+      padding: 2vw;
+}
+main:hover{
+      background-image: url(img/fondo.jpg);
+      background-size: contain;
+}
+nav{
+      display: flex;
+      justify-content: space-between;
+}
+.hijo{
+      width: 30%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: forager, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 0.8em;
+}
+.hijo :link{
+      color: orange;
+}
+.img_padre{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      margin: 15px 30px 15px 30px;
+}
+img{
+      width: 15vw;
+      height: auto;
+}
+.texto{
+      width: 80%;
+      margin: 20px auto;
+      font-family: forager, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      background-color: orange;
+      padding: 10px;
+      font-size: 0.8em;
+}
+.strong{
+      font-family: forager, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+}
+footer{
+      width: 80%;
+      margin: 20px auto;
+      font-family: forager, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      padding: 10px;
+      font-size: 0.8em;
+      border: 2px solid orange;
+      text-align: center;
+}
+footer:hover{
+      color: orange;
+}
+@media (max-width: 600px){
+      body{
+            background-color: black;
+      }
+      .titulo{
+            color: orange;
+      }
+      footer{
+            color: orange;
+      }
+}
